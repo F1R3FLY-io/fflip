@@ -409,6 +409,7 @@ ls -la assets/fip-[number]/
 - NEVER create files unless absolutely necessary
 - ALWAYS prefer editing existing files
 - NEVER proactively create FIPs or documentation files unless requested
+- ALWAYS ask the users permission to `git mv`, `git add`, `git push`, or `git commit`
 - Follow F1R3FLY.io's documentation-first methodology for all FIPs
 - Follow industry-standard FIP processes (modeled after EIP/BIP)
 - Ensure all FIPs include required sections and metadata
