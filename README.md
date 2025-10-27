@@ -2,6 +2,8 @@
 
 This repository is the home for F1R3FLY.io Improvement Proposals. FIPs are design documents describing standards for the F1R3FLY.io platform, including core protocol specifications, client APIs, consensus mechanisms, and application-level standards.
 
+**Quick Navigation**: [FIP Index](FIP_INDEX.md) | [FIP Template](templates/fip-template.md) | [Organization Docs](https://github.com/F1R3FLY-io/.github) | [F1R3FLY.io](https://github.com/F1R3FLY-io)
+
 ## Repository Status
 
 **This repository is currently being initialized.** The FIP process framework is being established following industry standards from:
@@ -61,22 +63,48 @@ fflip/
 └── LICENSE                 # Apache 2.0 License
 ```
 
-## Current Contents
+## Repository Contents
 
-- **[CLAUDE.md](CLAUDE.md)**: Comprehensive AI assistant context defining FIP standards, processes, and best practices
-- **README.md**: This overview document
+### Documentation
+- **[README.md](README.md)**: This overview document
+- **[FIP_INDEX.md](FIP_INDEX.md)**: Complete index of all improvement proposals
+- **[CLAUDE.md](CLAUDE.md)**: AI assistant context defining FIP standards and processes
 
-## Next Steps
+### Directories
+- **[FIPS/](FIPS/)**: All F1R3FLY.io Improvement Proposals
+- **[templates/](templates/)**: FIP templates and guidelines
+  - [fip-template.md](templates/fip-template.md): Standard FIP template
+- **[assets/](assets/)**: Supporting materials for FIPs (diagrams, code samples, etc.)
 
-To complete repository initialization:
+### Repository Files
+- **[LICENSE](LICENSE)**: Apache 2.0 License
+- **[.gitignore](.gitignore)**: Git ignore patterns
 
-1. Create FIPS/ directory structure
-2. Write FIP-1 (Meta: FIP Purpose and Guidelines)
-3. Create FIP template in templates/
-4. Add LICENSE file (Apache 2.0)
-5. Establish FIP editor roles
-6. Configure GitHub Discussions
-7. Set up repository labels and workflows
+## Getting Started
+
+### Proposing a New FIP
+
+1. **Review Existing FIPs**: Check [FIP_INDEX.md](FIP_INDEX.md) to see what's been proposed
+2. **Discuss Your Idea**: Use GitHub Discussions to vet your concept with the community
+3. **Draft Your FIP**: Copy [templates/fip-template.md](templates/fip-template.md) to `FIPS/fip-N.md`
+4. **Submit for Review**: Create a pull request with your proposal
+5. **Iterate**: Incorporate feedback and refine your FIP
+
+### Understanding the FIP Process
+
+See [CLAUDE.md](CLAUDE.md) for comprehensive details on:
+- FIP lifecycle and status transitions
+- Required sections and formatting standards
+- Review and approval process
+- Best practices for FIP authorship
+
+## Next Steps for Repository Development
+
+1. Write FIP-1 (Meta: FIP Purpose and Guidelines)
+2. Establish FIP editor roles and responsibilities
+3. Configure GitHub Discussions for proposal feedback
+4. Set up repository labels for FIP categories and statuses
+5. Create GitHub Actions workflows for FIP validation
 
 ## F1R3FLY.io Ecosystem
 
