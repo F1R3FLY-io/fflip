@@ -119,7 +119,7 @@ Developer Tools:
 
 ## License
 
-To be added: Apache 2.0 License
+[![License: Apache 2.0](https://img.shields.io/github/license/saltstack/salt.png)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Acknowledgments
 
